@@ -1,0 +1,65 @@
+PODS:
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts-Swift (1.5.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - Parse (1.17.3):
+    - Parse/Core (= 1.17.3)
+  - Parse/Core (1.17.3):
+    - Bolts/Tasks (~> 1.9)
+  - ParseLiveQuery (2.7.0):
+    - Bolts (~> 1.9.0)
+    - Bolts-Swift (~> 1.5.0)
+    - Parse (~> 1.17.3)
+    - Starscream (~> 3.1.0)
+  - Pastel (0.6.0)
+  - SnapKit (5.0.1)
+  - Spring (1.0.6)
+  - Starscream (3.1.1)
+  - SwiftSVG (2.3.2)
+
+DEPENDENCIES:
+  - Parse
+  - ParseLiveQuery
+  - Pastel
+  - SnapKit
+  - Spring (from `https://github.com/MussaCharles/Spring.git`)
+  - SwiftSVG
+
+SPEC REPOS:
+  trunk:
+    - Bolts
+    - Bolts-Swift
+    - Parse
+    - ParseLiveQuery
+    - Pastel
+    - SnapKit
+    - Starscream
+    - SwiftSVG
+
+EXTERNAL SOURCES:
+  Spring:
+    :git: https://github.com/MussaCharles/Spring.git
+
+CHECKOUT OPTIONS:
+  Spring:
+    :commit: b96701ce34d4854e53682822b16fac4312b25e19
+    :git: https://github.com/MussaCharles/Spring.git
+
+SPEC CHECKSUMS:
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  Bolts-Swift: afbbaf8c8186e7f769be4afa656949c14087ba44
+  Parse: c1ad2a04d2cab2b54b6fb7da05f741abf2cf57d1
+  ParseLiveQuery: f251b75fb8941c95b8948837a4685836a72f7f18
+  Pastel: 814f081efbe2859c37e65ee44f396e6e5be88619
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  Spring: 3d113f14575ef79aec9c5f906dfa4f5001c03254
+  Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
+  SwiftSVG: ca7f64e403b8ea7ea8eba8c823b83ba4a059834c
+
+PODFILE CHECKSUM: 35b02d646e2c2d1750b8c9bf16abbab1b42def77
+
+COCOAPODS: 1.8.4
